@@ -1,0 +1,22 @@
+
+
+
+
+body{
+    background: #453957;
+}
+
+
+
+.header {
+    margin-bottom: 3rem;
+    background: #ecf0f3;
+    height: 3rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
