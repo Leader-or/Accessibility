@@ -15,11 +15,15 @@
 
         <form method="post">
 
-            <input id="email" type="Email" placeholder="exemple@gmail.com" autofocus/>
-            <input type="password" placeholder="Password"/>
-            <button type = "button" onclick = "Redirect();"> LOGIN </button>
-            <a href="">Forgot Password ? </a>
+            <label for="email">Email :</label>
+            <input id="email" type="email" placeholder="exemple@gmail.com" autofocus/>
 
+            <label for="motDePasse">Mot de passe :</label>
+            <input id="motDePasse" type="password" placeholder="Password"/>
+
+            <button type="button" onclick="Redirect();">LOGIN</button>
+
+            <a href="mot_de_passe_oublie.html">Mot de passe oublié ?</a>
         </form>
 
     </div>

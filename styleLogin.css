@@ -52,10 +52,20 @@ input::placeholder {
     color: gray;
 }
 
-input {
+input#email {
     background: #ecf0f3;
-    margin-top: 3rem;
-    padding: 0.700rem;
+    margin-top: 0.5rem;
+    padding: 0.500rem;
+    height: 3.125rem;
+    font-size: 0.875rem;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+input#motDePasse {
+    background: #ecf0f3;
+    margin-top: 1rem;
+    padding: 0.500rem;
     height: 3.125rem;
     font-size: 0.875rem;
     border-radius: 50px;
@@ -64,7 +74,7 @@ input {
 
 button {
     color: #453957;
-    margin-top: 5rem;
+    margin-top: 4rem;
     background: #ffd700;
     height: 2.5rem;
     border-radius: 1.25rem;
@@ -82,4 +92,9 @@ a {
     border-radius: 10px;
     padding: 2px;
     cursor: pointer;
+}
+
+form label{
+    display: block;
+    margin-top: 20px;
 }

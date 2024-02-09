@@ -1,22 +1,28 @@
-
-
-
-
 body{
     background: #453957;
 }
 
-
-
 .header {
-    margin-bottom: 3rem;
-    background: #ecf0f3;
-    height: 3rem;
-    width: 100%;
+    background: rgba(236, 240, 243, 0.5);
+    height: 4rem;
+    width: 98vw;
     border-radius: 1rem;
+    display: flex;
+    justify-content: start;
 }
 
-img {
-    width: 200px;
-    height: auto;
+.logo{
+    height: 12vh;
+    width: 10vw;
+}
+
+article{
+    margin-left: 1rem;
+    width: 90%;
+    background: #4b5739;
+    box-shadow: 5px 5px 10px rgb(29, 161, 242);
+    border-radius: 1.25rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    color: #ecf0f3;
 }
