@@ -1,15 +1,25 @@
 body{
-    background: #453957;
+    background: rgba(63, 94, 251, 0.25);
 }
 
 .header {
-    background: rgba(236, 240, 243, 0.5);
-    height: 4rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    height: 10vh;
     width: 98vw;
     border-radius: 1rem;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.logout-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1.3rem;
+}
+
 
 .logo{
     height: 12vh;
@@ -17,12 +27,86 @@ body{
 }
 
 article{
-    margin-left: 1rem;
+    display: block;
     width: 90%;
-    background: #4b5739;
-    box-shadow: 5px 5px 10px rgb(29, 161, 242);
+    background: #161a42;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
     border-radius: 1.25rem;
-    padding: 1rem;
+    padding: 1.5rem;
     margin-top: 4rem;
-    color: #ecf0f3;
+    font-family: Bahnschrift, serif;
+    color: #FFF86E;
+    position: relative;
 }
+
+a{
+    text-decoration: none;
+}
+
+p {
+    margin-right: 15vw;
+}
+
+/* --------img-------- */
+
+.sieste {
+    height: 20vh;
+    width: 14vw;
+    position: absolute;
+    top: 46%;
+    right: 1rem;
+    transform: translateY(-50%);
+}
+
+.cactus {
+    height: 20vh;
+    width: 14vw;
+    position: absolute;
+    top: 46%;
+    right: 1rem;
+    transform: translateY(-50%);
+}
+
+.rire {
+    height: 20vh;
+    width: 14vw;
+    position: absolute;
+    top: 46%;
+    right: 1rem;
+    transform: translateY(-50%);
+}
+
+.cocktail {
+    height: 20vh;
+    width: 14vw;
+    position: absolute;
+    top: 46%;
+    right: 1rem;
+    transform: translateY(-50%);
+}
+
+.meditation {
+    height: 20vh;
+    width: 14vw;
+    position: absolute;
+    top: 46%;
+    right: 1rem;
+    transform: translateY(-50%);
+}
+
+.logout{
+    margin-top: 0.313rem;
+    margin-left: 0.5rem;
+    height: 4.3vh;
+}
+
+
+
+
+/*
+- mettre les boutons pour lire les articles
+- faire en sorte de gérer la tab
+- intégrer un narrateur
+ */
+
+

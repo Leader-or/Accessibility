@@ -11,7 +11,7 @@ body {
     justify-content: center;
     place-items: center;
     overflow: hidden;
-    font-family: "Poppins";
+    font-family: "Poppins", serif;
 }
 
 .container {

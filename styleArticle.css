@@ -1,0 +1,62 @@
+body{
+    background: rgba(63, 94, 251, 0.25);
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    height: 10vh;
+    width: 98vw;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1.3rem;
+}
+
+
+.logo{
+    height: 12vh;
+    width: 10vw;
+}
+
+article{
+    display: block;
+    height: 140vh;
+    width: 90%;
+    background: #161a42;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    margin-top: 4rem;
+    font-family: Bahnschrift, serif;
+    color: #FFF86E;
+    position: relative;
+    margin-left: 3vw;
+
+}
+
+p {
+    margin-right: 25vw;
+}
+
+.logout{
+    margin-top: 0.313rem;
+    margin-left: 0.5rem;
+    height: 4.3vh;
+}
+
+.cactus {
+    height: 40vh;
+    width: 24vw;
+    position: absolute;
+    top: 26%;
+    right: 1rem;
+    transform: translateY(-50%);
+}
