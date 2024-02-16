@@ -13,21 +13,22 @@
     <div class="title">LOGIN</div>
     <div class="inputs">
 
-        <form method="post">
+        <form method="post" action="home.html">
 
             <label for="email">Email :</label>
-            <input id="email" type="email" placeholder="exemple@gmail.com" autofocus/>
+            <input id="email" type="email" required placeholder="exemple@gmail.com" autocomplete="email" autofocus/>
 
             <label for="motDePasse">Mot de passe :</label>
-            <input id="motDePasse" type="password" placeholder="Password"/>
+            <input id="motDePasse" type="password" required name="password" autocomplete="current-password" placeholder="Password"/>
 
-            <button type="button" onclick="Redirect();">LOGIN</button>
+            <button type="submit"> LOGIN</button>
 
             <a href="mot_de_passe_oublie.html">Mot de passe oublié ?</a>
         </form>
 
     </div>
 </div>
+
 
 </body>
 </html>
