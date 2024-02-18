@@ -2,7 +2,7 @@ body{
     background: rgba(63, 94, 251, 0.25);
 }
 
-.header {
+header {
     background: rgba(255, 255, 255, 0.3);
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     height: 10vh;
